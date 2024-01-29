@@ -211,7 +211,7 @@ ul {
         a {
             text-decoration: none;
             color: black;
-            font-size: 14px;
+            font-size: 10px;
         }
     }
     
@@ -221,7 +221,7 @@ ul {
         flex-wrap: nowrap;
         align-items: center;
         justify-content: space-around;
-        height:400px;
+        height:300px;
         background-color: #f0eee9;
     }
     
@@ -310,7 +310,7 @@ ul {
     }
     
     p {
-        font-size: 10px;
+        font-size: 8px;
     }
     
     article p:first-child::first-line {

@@ -1,0 +1,197 @@
+.nav_block {
+    display:flex;
+    align-items: center;
+    justify-content: space-around;
+    height:70px;
+    border-bottom: thick solid #cca31c;
+    background-color: #faf9f6;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif ;
+    a {
+        text-decoration: none;
+        color: black;
+        font-size: 27px;
+    }
+}
+
+.main_block {
+    display:flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    align-items: center;
+    justify-content: space-around;
+    height:800px;
+    background-color: #f0eee9;
+}
+
+.pictures-block {
+    display: flex;
+    flex-direction: row;
+    padding: 0 20px;
+}
+
+#picform1 {
+    display: flex;
+    flex-direction: column;
+    width:250px;
+    height: 250px;
+    border: solid 1px black ;
+    margin: 0 20px;
+
+}
+
+#picform1, #picform2, #picform3 > p {
+    text-align: center;
+}
+
+#picform2 {
+    display: flex; 
+    flex-direction: column;
+    width:250px;
+    height: 250px;
+    border: solid 1px black ;
+    margin: 0 20px;
+}
+
+#picform3 {
+    display: flex;  
+    flex-direction: column;
+    
+    width:250px;
+    height: 250px;  
+    border: solid 1px black ; 
+    margin: 0 20px; 
+}
+
+#beltpic {
+    width: 100%;
+    height: 75%;
+    object-fit: cover;
+}
+
+#beltpic:hover {
+    transition: 1s; /* Время эффекта */
+    transform: scale(1.2); /* Увеличиваем масштаб */
+
+}
+
+
+#walletpic {
+    width: 100%;
+    height: 75%;
+    object-fit: cover;
+}
+
+#walletpic:hover {
+    transition: 1s; /* Время эффекта */
+    transform: scale(1.2); /* Увеличиваем масштаб */
+
+}
+
+#suitcasepic {
+    width: 100%;
+    height: 75%;
+    object-fit: cover;
+}
+
+#suitcasepic:hover {
+    transition: 1s; /* Время эффекта */
+    transform: scale(1.2); /* Увеличиваем масштаб */
+
+}
+
+.footer_block {
+    display:flex;
+    align-items: stretch;
+    justify-content: space-around;
+    height:50px;  
+    border-top: thick solid #cca31c;
+}
+
+p {
+    font-size: 20px;
+}
+
+article p:first-child::first-line {
+    font-size: 130%;
+    font-weight: bold;
+  }
+
+
+ul {
+    font-family: Helvetica, Arial, sans-serif;
+    font-style: italic;
+}
+
+.link-text {
+    a:hover {
+        /* Цвет при наведении */
+        color: red;
+    }
+      
+    a:visited {
+        /* Цвет посещённой ссылки */
+        color: green;
+    }
+      
+    a:active {
+        /* Цвет ссылки при клике */
+        color: blue;
+    }
+}
+
+
+#prop-about {
+
+    display: none;
+  
+}
+
+#prop-about:not(:target) {
+
+    display: none;
+  
+}
+  
+#prop-about:target {
+  
+    display: block;
+  
+}
+
+#slide-text > p {
+
+    animation-duration: 2s;
+  
+    animation-name: slidein;
+  
+  }
+  
+   
+  
+  @keyframes slidein {
+  
+    from {
+  
+      margin-left: 100%;
+  
+      width: 300%;
+  
+    }
+  
+   
+  
+    to {
+  
+      margin-left: 0%;
+  
+      width: 100%;
+  
+    }
+  
+  }
+
+#video_audio_block {
+    display: flex;
+    align-items:flex-start;
+    justify-content: start;
+}
